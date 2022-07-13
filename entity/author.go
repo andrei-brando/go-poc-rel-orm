@@ -8,5 +8,5 @@ type Author struct {
 	UpdatedAt time.Time
 	Name      string
 	Active    bool
-	// Book      []Book `ref:"author_id" fk:"author_id" `
+	Books     []Book `ref:"author_id" fk:"author_id" `
 }
